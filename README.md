@@ -52,14 +52,12 @@ Project description here...
 [View on GitHub](https://github.com/yvanlok/my-project)
 ```
 
-**That's it!** The project will automatically appear on the `/projects` page. Projects are sorted by date (newest first) and display:
+**That's it!** The project will automatically appear in two places:
 
-- Title (from frontmatter)
-- Summary (from frontmatter)
-- Tags (from frontmatter)
-- Automatic link to the full project page
+1. **`/projects` page** - All projects are listed here (sorted by date, newest first)
+2. **Home page** - Projects marked with `featured: true` automatically appear in the "Featured Projects" section
 
-No need to manually edit `projects/index.md` anymore!
+No need to manually edit `projects/index.md` or `index.md` anymore! Just set `featured: true` in the frontmatter to have a project appear on the home page.
 
 ### Adding a Journal Entry
 
