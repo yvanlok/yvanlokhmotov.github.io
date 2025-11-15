@@ -4,13 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
-
 A collection of my machine learning and software development projects, primarily focused on Formula 1 data analysis and predictive modeling.
 
 ---
 
-<div class="project-item">
+<div class="project-item" markdown="1">
 
 ### [EPQ — F1 Predictive Model](/projects/epq.html)
 
@@ -27,7 +25,7 @@ Neural networks and TabNet for Formula 1 race prediction with backtesting to pre
 
 </div>
 
-<div class="project-item">
+<div class="project-item" markdown="1">
 
 ### [ffbeast Project](/projects/ffbeast.html)
 

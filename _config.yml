@@ -24,7 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Portfolio of Yvan Lokhmotov – ML projects, software, and EPQ.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ylokhmotov.dev" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: yvanlokhmotov
+github_username: yvanlok
+linkedin_username: yvanlokhmotov
 
 # Navigation
 header_pages:
@@ -33,7 +34,6 @@ header_pages:
   - about.md
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

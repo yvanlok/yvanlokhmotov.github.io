@@ -3,6 +3,7 @@
 ## Current Status
 
 Your site is now configured to work with GitHub Pages using:
+
 - ✅ `github-pages` gem for dependency compatibility
 - ✅ GitHub Actions workflow for automated deployment
 - ✅ Jekyll 3.10.0 (GitHub Pages compatible version)
@@ -13,33 +14,41 @@ Your site is now configured to work with GitHub Pages using:
 You need to configure your repository to use GitHub Actions for deployment:
 
 ### 1. Go to Repository Settings
+
 Visit: https://github.com/yvanlok/yvanlokhmotov.github.io/settings/pages
 
 ### 2. Change Build and Deployment Source
+
 - Under "Build and deployment"
 - Change **Source** from "Deploy from a branch" to **"GitHub Actions"**
 
 ### 3. Wait for Deployment
+
 - The GitHub Actions workflow will automatically trigger
 - Check the Actions tab to see the deployment progress: https://github.com/yvanlok/yvanlokhmotov.github.io/actions
 - First deployment usually takes 2-3 minutes
 
 ### 4. Verify Deployment
+
 Once the action completes, your site will be live at:
+
 - Primary URL: https://yvanlok.github.io/yvanlokhmotov.github.io/
 - Custom domain (after DNS setup): https://ylokhmotov.dev
 
 ## What Changed
 
 ### Gemfile
+
 - Replaced `gem "jekyll", "~> 4.4.1"` with `gem "github-pages", group: :jekyll_plugins`
 - This ensures all dependencies match GitHub Pages exactly
 
-### _config.yml
+### \_config.yml
+
 - Added additional plugins: `jekyll-seo-tag`, `jekyll-sitemap`
 - These are included in github-pages gem and enhance SEO
 
 ### GitHub Actions Workflow
+
 - Created `.github/workflows/jekyll.yml`
 - Automates building and deploying your Jekyll site
 - Uses Ruby 3.2 and bundles gems automatically
@@ -83,11 +92,13 @@ Visit http://127.0.0.1:4000/
 ## Troubleshooting
 
 ### If build fails in GitHub Actions:
+
 1. Check the Actions tab for error messages
 2. Ensure all files are committed and pushed
-3. Verify _config.yml has valid YAML syntax
+3. Verify \_config.yml has valid YAML syntax
 
 ### If site doesn't update:
+
 1. Clear your browser cache
 2. Wait a few minutes for CDN to update
 3. Check Actions tab to ensure deployment completed successfully
