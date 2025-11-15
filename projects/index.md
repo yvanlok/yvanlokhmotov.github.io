@@ -1,43 +1,33 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: /projects
 ---
 
 A collection of my machine learning and software development projects, primarily focused on Formula 1 data analysis and predictive modeling.
 
 ---
 
-<div class="project-item" markdown="1">
+{% assign project_pages = site.pages | where_exp: "page", "page.path contains 'projects/'" | where_exp: "page", "page.path != 'projects/index.md'" | sort: "date" | reverse %}
 
-### [EPQ — F1 Predictive Model](/projects/epq.html)
-
-Neural networks and TabNet for Formula 1 race prediction with backtesting to prevent data leakage.
-
-<div class="tags">
-  <span class="tag">Machine Learning</span>
-  <span class="tag">PyTorch</span>
-  <span class="tag">TabNet</span>
-  <span class="tag">F1</span>
-</div>
-
-[View Details →](/projects/epq.html)
-
-</div>
+{% for project in project_pages %}
 
 <div class="project-item" markdown="1">
 
-### [ffbeast Project](/projects/ffbeast.html)
+### [{{ project.title }}]({{ project.url }})
 
-Comprehensive tool for Formula 1 telemetry analysis and predictive simulations.
+{{ project.summary | default: project.excerpt | strip_html | truncatewords: 30 }}
+
+{% if project.tags and project.tags.size > 0 %}
 
 <div class="tags">
-  <span class="tag">Python</span>
-  <span class="tag">FastF1</span>
-  <span class="tag">Data Analysis</span>
-  <span class="tag">Visualization</span>
+  {% for tag in project.tags %}
+  <span class="tag">{{ tag }}</span>
+  {% endfor %}
 </div>
+{% endif %}
 
-[View Details →](/projects/ffbeast.html)
+[View Details →]({{ project.url }})
 
 </div>
+{% endfor %}

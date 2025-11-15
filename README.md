@@ -25,12 +25,16 @@ A professional portfolio website showcasing ML projects, software development, a
 
 ### Adding a New Project
 
-1. Create a new markdown file in the `projects/` directory (e.g., `projects/my-project.md`):
+Simply create a new markdown file in the `projects/` directory (e.g., `projects/my-project.md`):
 
 ```markdown
 ---
 layout: page
 title: "My Project Title"
+date: 2025-11-15
+tags: [Python, Machine Learning, etc]
+featured: true
+summary: "A brief one-sentence description of your project"
 ---
 
 # My Project Title
@@ -48,24 +52,14 @@ Project description here...
 [View on GitHub](https://github.com/yvanlok/my-project)
 ```
 
-2. Add a link to the project in `projects/index.md`:
+**That's it!** The project will automatically appear on the `/projects` page. Projects are sorted by date (newest first) and display:
 
-```markdown
-<div class="project-item" markdown="1">
+- Title (from frontmatter)
+- Summary (from frontmatter)
+- Tags (from frontmatter)
+- Automatic link to the full project page
 
-### [My Project Title](/projects/my-project.html)
-
-Brief description of the project.
-
-<div class="tags">
-  <span class="tag">Python</span>
-  <span class="tag">ML</span>
-</div>
-
-[View Details →](/projects/my-project.html)
-
-</div>
-```
+No need to manually edit `projects/index.md` anymore!
 
 ### Adding a Journal Entry
 
