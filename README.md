@@ -11,6 +11,7 @@ Professional portfolio showcasing academic projects, software tools, machine lea
 ## Purpose
 
 This portfolio is designed for:
+
 - University applications
 - Work experience / internship applications
 - Professional networking (CV, LinkedIn, Unifrog)
@@ -82,12 +83,15 @@ summary: "Brief project description"
 # Project Title
 
 ## Overview
+
 ...
 
 ## Role
+
 ...
 
 ## Tech stack
+
 ...
 
 [View on GitHub]({{ page.repo }})
@@ -115,7 +119,7 @@ Content here...
 ## Next Steps
 
 1. **Add CV**: Replace the placeholder `assets/pdf/CV_Yvan_Lokhmotov.pdf` with your actual CV
-2. **Configure Custom Domain**: 
+2. **Configure Custom Domain**:
    - Go to GitHub repository settings → Pages
    - Verify that "ylokhmotov.dev" is set as the custom domain
    - Enable "Enforce HTTPS"

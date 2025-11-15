@@ -26,11 +26,20 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ylokhmotov.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: yvanlokhmotov
 
+# Navigation
+header_pages:
+  - index.md
+  - projects/index.md
+  - about.md
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+# Minima theme customization
+minima:
+  skin: dark
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
