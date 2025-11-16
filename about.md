@@ -36,6 +36,21 @@ Subjects: Maths, Further Maths, Physics, Chemistry, Computer Science
 - Formula 1 Data Analysis
 - Predictive Modeling
 
+## Experience
+
+{% capture experience_content %}
+{% include experience-content.md %}
+{% endcapture %}
+{{ experience_content | markdownify }}
+
+## Competitions & Awards
+
+Coming Soon..
+
+## Certifications
+
+Coming soon...
+
 ## Contact
 
 <div class="cta-buttons">

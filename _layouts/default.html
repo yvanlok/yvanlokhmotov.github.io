@@ -16,7 +16,12 @@
             <a class="site-title" href="{{ " /" | relative_url }}">{{ site.title | escape }}</a>
             <nav class="site-nav">
                 {%- for path in site.header_pages -%}
-                {%- assign page_path = path | replace: '.md', '' | replace: 'index', '' -%}
+                {%- assign page_path = path | replace: '.md', '' -%}
+                {%- if page_path == 'index' -%}
+                {%- assign page_path = '' -%}
+                {%- else -%}
+                {%- assign page_path = page_path | replace: '/index', '' -%}
+                {%- endif -%}
                 {%- if page_path == '' -%}
                 {%- assign page_path = '/' -%}
                 {%- else -%}

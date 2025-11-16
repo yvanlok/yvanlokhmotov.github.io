@@ -31,6 +31,7 @@ linkedin_username: yvanlokhmotov
 header_pages:
   - index.md
   - projects/index.md
+  - experience.md
   - about.md
 
 # Build settings
