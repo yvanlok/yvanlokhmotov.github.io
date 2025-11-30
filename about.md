@@ -4,37 +4,25 @@ title: About
 permalink: /about/
 ---
 
-I am an A-level student at Hills Road Sixth Form College with a passion for machine learning and software development, particularly in the context of Formula 1 racing and data science.
-
-My work focuses on building predictive models and analytical tools that combine statistical analysis with practical software engineering.
+I am an A-level student at Hills Road Sixth Form College with a passion for machine learning, software development, and engineering.
 
 ## Education
 
-**Hills Road Sixth Form College** (Current)
+**Hills Road Sixth Form College** (2025–2027)  
+A-Level Subjects: Maths, Further Maths, Physics, Chemistry, EPQ
 
-Subjects: Maths, Further Maths, Physics, Chemistry, Computer Science
+**The Perse School, Cambridge** (2023–2025)  
+GCSEs: Achieved nine grade 9s and two grade 8s across Maths, Further Maths, English Language & Literature, Sciences, Computer Science, Geography, French, and Ancient History. Completed AS Computer Science early and achieved an A.
+
+Leadership & Activities: Student leadership role in outdoor education, supporting younger pupils and promoting teamwork, confidence, and safety in outdoor environments.
 
 ## Skills
 
-**Programming & ML**
-
-- Python, PyTorch, TensorFlow
-- TabNet, Neural Networks
-- pandas, NumPy, scikit-learn
-
-**Tools & Technologies**
-
-- Git & GitHub
-- Jupyter Notebooks
-- FastF1 (F1 telemetry)
-- Data visualization (matplotlib, seaborn)
-
-**Specializations**
-
-- Machine Learning & Deep Learning
-- Statistical Analysis
-- Formula 1 Data Analysis
-- Predictive Modeling
+- Machine Learning & Data Analysis: Neural networks, TabNet, PyTorch, pandas
+- Software Development: Python, open-source tools, reproducible workflows
+- Mechanical & Electrical Engineering: CAD, 3D printing, electronics, sensor integration
+- Project Management & Research: Designing, building, and testing complex projects
+- Communication & Leadership: Coaching, mentoring, and teamwork through volunteering
 
 ## Experience
 
@@ -42,14 +30,6 @@ Subjects: Maths, Further Maths, Physics, Chemistry, Computer Science
 {% include experience-content.md %}
 {% endcapture %}
 {{ experience_content | markdownify }}
-
-## Competitions & Awards
-
-Coming Soon..
-
-## Certifications
-
-Coming soon...
 
 ## Contact
 

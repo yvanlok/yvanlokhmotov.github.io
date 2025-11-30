@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "EPQ F1 Predictive Model"
 date: 2025-11-15
 tags: [machine learning, EPQ, motorsport]

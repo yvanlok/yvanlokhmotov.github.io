@@ -5,9 +5,7 @@ title: Home
 
 # Yvan Lokhmotov
 
-Student, Developer & ML Enthusiast
-
-I build machine learning and software projects focused on Formula 1 and data science. Currently working on predictive models and telemetry analysis tools.
+<p style="text-align: center; font-size: 1.25rem; color: #9ca3af; margin-bottom: 2rem;">Sixth Form Student and Aspiring ML Engineer</p>
 
 <div class="cta-buttons">
   <a href="/projects/" class="btn">View Projects</a>

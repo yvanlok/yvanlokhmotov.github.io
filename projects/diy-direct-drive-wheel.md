@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "DIY Direct Drive Wheelbase"
 date: 2025-11-15
 tags: [engineering, electronics, CAD, 3d-printing, motorsport]
@@ -15,15 +15,15 @@ This project showcases a fully functioning direct drive sim racing wheelbase tha
 
 ## Technical Breakdown
 
-- Repurposed hoverboard motor that delivers high sustained torque  
-- Aluminium extrusion frame combined with custom PETG printed parts  
-- CAD modelled enclosure with airflow paths for cooling  
-- Off axis pulley and belt system for precise encoder reading  
-- Omron style optical encoder with custom wiring and soldering  
-- Open source FFBeast firmware for force feedback control  
-- Planned upgrade to OpenFFBoard for deeper configurability  
-- Hot swap wheel support with standard 70 mm compatibility  
-- Two to three redesigns per part to improve rigidity and durability  
+- Repurposed hoverboard motor that delivers high sustained torque
+- Aluminium extrusion frame combined with custom PETG printed parts
+- CAD modelled enclosure with airflow paths for cooling
+- Off axis pulley and belt system for precise encoder reading
+- Omron style optical encoder with custom wiring and soldering
+- Open source FFBeast firmware for force feedback control
+- Planned upgrade to OpenFFBoard for deeper configurability
+- Hot swap wheel support with standard 70 mm compatibility
+- Two to three redesigns per part to improve rigidity and durability
 - Electronics mounted neatly in a compact layout
 
 ## Engineering Challenges
@@ -34,11 +34,11 @@ The project came with several constraints such as limited access to tools. Since
 
 This build taught me far more than how to assemble a wheelbase. It pushed me to develop skills across mechanical engineering, electronics, firmware and practical problem solving. Through the process I learned:
 
-- How to design complex assemblies in CAD and adapt them through iterative prototyping  
-- How to use materials like PETG effectively for load bearing parts  
-- How to manage tolerances, clearances and mechanical alignment  
-- How to work around constraints and redesign systems with creative solutions  
-- How to integrate encoders, wiring, soldered connections and open source control firmware  
+- How to design complex assemblies in CAD and adapt them through iterative prototyping
+- How to use materials like PETG effectively for load bearing parts
+- How to manage tolerances, clearances and mechanical alignment
+- How to work around constraints and redesign systems with creative solutions
+- How to integrate encoders, wiring, soldered connections and open source control firmware
 - How to test, evaluate and refine a system until it performs at a level comparable to commercial hardware
 
 ## Personal Impact
