@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects
+permalink: /projects/
 ---
 
 A collection of my machine learning and software development projects, primarily focused on Formula 1 data analysis and predictive modeling.
