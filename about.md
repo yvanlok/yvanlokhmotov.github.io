@@ -24,12 +24,12 @@ Leadership & Activities: Student leadership role in outdoor education, supportin
 - Project Management & Research: Designing, building, and testing complex projects
 - Communication & Leadership: Coaching, mentoring, and teamwork through volunteering
 
-## Experience
+## Honors & Awards
 
-{% capture experience_content %}
-{% include experience-content.md %}
+{% capture awards_content %}
+{% include awards-content.md %}
 {% endcapture %}
-{{ experience_content | markdownify }}
+{{ awards_content | markdownify }}
 
 ## Contact
 
