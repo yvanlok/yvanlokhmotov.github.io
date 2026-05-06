@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EPQ F1 Predictive Model — Yvan Lokhmotov</title>
+  <meta name="description" content="Neural networks and TabNet for Formula 1 race finishing position prediction. Full reproducible pipeline with feature engineering and backtesting.">
+  <link rel="canonical" href="https://ylokhmotov.dev/projects/epq-machine-learning-in-f1.html">
+  <meta property="og:title" content="EPQ F1 Predictive Model — Yvan Lokhmotov">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://ylokhmotov.dev/projects/epq-machine-learning-in-f1.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="/" class="nav-logo">yvanlokhmotov.github.io</a>
+  <ul class="nav-links">
+    <li><a href="/#about">./about</a></li>
+    <li><a href="/#projects">./projects</a></li>
+    <li><a href="/#experience">./work</a></li>
+    <li><a href="/#awards">./awards</a></li>
+    <li><a href="/#contact">./contact</a></li>
+    <li><a href="/assets/pdf/CV_Yvan_Lokhmotov.pdf" class="nav-cv">CV.pdf</a></li>
+  </ul>
+</nav>
+
+<section class="proj-page-hero">
+  <div class="proj-breadcrumb">
+    <a href="/#projects">← projects</a>
+    &nbsp;/&nbsp;
+    <span>EPQ F1 Predictive Model</span>
+  </div>
+  <div class="proj-page-kicker">PyTorch · TabNet</div>
+  <h1 class="proj-page-title">EPQ F1 Predictive Model</h1>
+  <div class="proj-meta-row">
+    <div class="meta-item">
+      <span class="meta-label">Year</span>
+      <span class="meta-val">2025</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-label">Stack</span>
+      <span class="meta-val">PyTorch · TabNet · pandas · scikit-learn · Python</span>
+    </div>
+  </div>
+  <p class="proj-summary">Neural networks and TabNet for Formula 1 race finishing position prediction. Full reproducible pipeline — feature engineering, strict leakage prevention, season-by-season backtesting.</p>
+</section>
+
+<article class="proj-page-content">
+
+  <h2>Overview</h2>
+  <p>This project builds a predictive model for Formula 1 race finishing positions using structured data pipelines, feature engineering and modern machine learning methods. The aim is to test how far neural networks and TabNet can extract patterns from timing, telemetry and historical race information.</p>
+
+  <h2>Objectives</h2>
+  <ul>
+    <li>Create a reproducible end-to-end workflow for F1 prediction</li>
+    <li>Develop a clean dataset from raw race, timing and driver data</li>
+    <li>Engineer features that capture qualifying performance, stint patterns, track behaviour and race context</li>
+    <li>Train neural networks and TabNet models while preventing leakage</li>
+    <li>Backtest the workflow to evaluate real-world robustness</li>
+  </ul>
+
+  <h2>Methods</h2>
+  <ul>
+    <li>Data ingestion from timing, results and supplementary race sources</li>
+    <li>Preprocessing with pandas to standardise and merge datasets</li>
+    <li>Feature engineering including pace deltas, tyre stints, form metrics, driver and team variables and track characteristics</li>
+    <li>Model training in PyTorch and TabNet with early stopping and cross validation</li>
+    <li>Strict separation between training and target events to avoid leakage</li>
+    <li>Backtesting using season-by-season roll-forward evaluation</li>
+  </ul>
+
+  <h2>Role</h2>
+  <ul>
+    <li>Built the data preparation pipeline</li>
+    <li>Designed and trained neural network and TabNet models</li>
+    <li>Evaluated performance with multiple metrics and backtesting setups</li>
+    <li>Documented the workflow for reproducibility</li>
+  </ul>
+
+  <h2>Tech Stack</h2>
+  <p>Python, PyTorch, TabNet, pandas, NumPy, scikit-learn</p>
+
+  <h2>Results</h2>
+  <p>Metrics, learning curves and predictions will be added here when full evaluation is completed.</p>
+
+</article>
+
+<footer>
+  <span class="foot-copy">© 2026 Yvan Lokhmotov</span>
+  <span class="foot-tag">// built with intent</span>
+</footer>
+
+</body>
+</html>
